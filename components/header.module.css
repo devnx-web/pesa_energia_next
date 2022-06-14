@@ -1,0 +1,25 @@
+.bgcolor{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link{
+    color: white;
+    font-family: "Univers";
+    font-size: 22px;
+    margin-right: 18px;
+    font-weight: 400;
+}
+
+.button{
+    color: black;
+    background-color: #ffc700;
+    font-family: "Univers";
+    font-weight: 800;
+    box-shadow: 0 0 1em gold;
+    border: none;
+    font-size: 22px;
+    padding: 1px 40px 1px 40px;
+    border-radius: 10px;
+}

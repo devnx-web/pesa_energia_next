@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Univers";
+  src: url("../public/font/UNVR57X.TTF");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Univers";
+  src: url("../public/font/UNVR57W.TTF");
+  font-weight: 800;
+}
