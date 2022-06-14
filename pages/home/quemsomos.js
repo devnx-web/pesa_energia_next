@@ -18,6 +18,34 @@ export default function Quemsomos(){
                         ut sem nulla pharetra diam sit. Ac odio tempor orci dapibus ultrices. Sociis natoque penatibus et magnis dis parturient montes.
                          Nunc consequat interdum varius sit amet mattis vulputate.
                         </div>
+
+                        <Row style={{marginTop: '50px'}}>
+                            <Col className="d-flex align-items-center mt-3 mt-md-0">
+                            <div className={css.border}>
+                                15k
+                            </div>
+                            <div>
+                                <span className={css.tt}>Clientes Atendidos</span>
+                                <div className={css.description}>Já atendemos mais de 15 mil clientes</div>
+                            </div>
+                            </Col>
+
+                            <Col className="d-flex align-items-center mt-3 mt-md-0">
+                            <div className={css.border}>
+                                +82
+                            </div>
+                            <div>
+                                <span className={css.tt}>Países Presentes</span>
+                                <div className={css.description}>Estamos presentes em mais de 82 países</div>
+                            </div>
+                            </Col>
+                        </Row>
+                        <Row style={{marginTop: '50px'}}>
+                            <Col>
+                                <button className={css.button1}>Botão CTA Principal</button>
+                                <button className={css.button2}>CTA Secundário</button>
+                            </Col>
+                        </Row>
                         </Col>
 
                         <Col>

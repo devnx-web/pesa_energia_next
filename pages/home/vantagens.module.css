@@ -1,0 +1,18 @@
+.bgbanner{
+    background-image: url("../../public/img/bg-vantagens.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: "Univers";
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+}
