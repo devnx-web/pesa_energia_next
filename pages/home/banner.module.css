@@ -31,6 +31,11 @@
     margin-right: 15px;
     border-radius: 5px;
     box-shadow: 0 0 1em gold;
+    transition: 0.3s;
+}
+
+.button1:hover{
+    background-color: white;
 }
 
 .button2{
@@ -42,4 +47,11 @@
     padding: 5px 25px 5px 25px;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
+}
+
+.button2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
 }

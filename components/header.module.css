@@ -27,4 +27,10 @@
     font-size: 22px;
     padding: 1px 40px 1px 40px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: white;
+    transition: 0.3s;
 }

@@ -1,0 +1,18 @@
+.bgcolor{
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: solid 3px #ffc700;
+}
+
+.frase{
+    font-family: "Univers";
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 70px;
+    color: white;
+    text-align: right;
+    margin-top: 120px;
+    margin-right: 10px;
+}
