@@ -26,3 +26,9 @@ a {
   src: url("../public/font/UNVR57W.TTF");
   font-weight: 800;
 }
+
+@font-face{
+  font-family: "Univers";
+  src: url("../public/font/UniversLightCondensed.ttf");
+  font-weight: 200;
+}

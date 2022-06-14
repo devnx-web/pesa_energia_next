@@ -1,0 +1,45 @@
+.bgbanner{
+    background-image: url(../../public/img/banner-energia.jpg);
+    background-size: cover;
+    padding-top: 155px;
+    padding-bottom: 155px;
+}
+
+.title{
+    font-family: "Univers";
+    font-weight: 800;
+    color: white;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.text{
+    font-family: "Univers";
+    font-weight: 200;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.button1{
+    background-color: #ffc700;
+    border: none;
+    font-family: "Univers";
+    font-weight: 800;
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em gold;
+}
+
+.button2{
+    background-color: transparent;
+    border: solid 2px #ffc700;
+    font-family: "Univers";
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,31 @@
+import css from './quemsomos.module.css'
+import {Container, Row, Col} from "reactstrap"
+import Image from "next/image"
+
+export default function Quemsomos(){
+    return(
+        <div>
+            <div className={css.bgcolor}>
+                <Container>
+                    <Row>
+                        <Col>
+                        <div className={css.title}>Quem <span style={{color: '#ffc700'}}>somos</span> nós</div>
+                        <div className={css.text}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Massa placerat duis ultricies lacus sed turpis tincidunt id. Molestie a iaculis at erat pellentesque. Nunc scelerisque viverra
+                        <br/><br/>
+                        Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vitae elementum curabitur vitae nunc sed. Ornare arcu odio 
+                        ut sem nulla pharetra diam sit. Ac odio tempor orci dapibus ultrices. Sociis natoque penatibus et magnis dis parturient montes.
+                         Nunc consequat interdum varius sit amet mattis vulputate.
+                        </div>
+                        </Col>
+
+                        <Col>
+                            <Image src="/img/img-quemsomos.jpg" width="550" height="563" alt="img-sobre" />
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        </div>
+    )
+}

@@ -10,6 +10,11 @@
     font-size: 22px;
     margin-right: 18px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
 }
 
 .button{

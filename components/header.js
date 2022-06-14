@@ -15,12 +15,12 @@ export default function Header(){
                             <Image src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" />
                         </Col>
 
-                        <Col style={{textAlign: 'right'}}>
+                        <Col style={{textAlign: 'right', marginTop: '10px'}}>
                             <navbar style={{alignItems: 'center'}}>
-                                <span className={css.link}>Home</span>
-                                <span className={css.link}>O Grupo</span>
-                                <span className={css.link}>Geradores</span>
-                                <span className={css.link}>Mais Opções</span>
+                                <Link href="#"><a className={css.link}><span>Home</span></a></Link>
+                                <Link href="#"><a className={css.link}><span>O Grupo</span></a></Link>
+                                <Link href="#"><a className={css.link}><span>Geradores</span></a></Link>
+                                <Link href="#"><a className={css.link}><span>Mais Opções</span></a></Link>
                                 <button className={css.button}>Contato</button>
                             </navbar>
                         </Col>
