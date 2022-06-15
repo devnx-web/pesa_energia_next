@@ -1,0 +1,17 @@
+.bgcolor{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.frase{
+    text-align: center;
+    color: white;
+    font-family: "Univers";
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 320px;
+    margin-right: 320px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}

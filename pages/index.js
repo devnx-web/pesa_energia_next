@@ -5,6 +5,7 @@ import Quemsomos from './home/quemsomos.js'
 import Vantagens from './home/vantagens.js'
 import Frase from './home/frase.js'
 import Produtos from './home/produtos.js'
+import Diferenciais from "./home/diferenciais.js"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Vantagens/>
       <Frase/>
       <Produtos/>
+      <Diferenciais/>
     </div>
   )
 }
