@@ -11,12 +11,10 @@ export default function Diferenciais(){
                 <Row>
                     <Col style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
-                    
+                        <div className={css.card}>
                         <div className={css.title}>
                             Lorem Ipsum Dolor
                         </div>
-                        
-                        <div className={css.card}>
                         <div className={css.text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
                          risus in hendrerit gravida rutrum. Commodo odio aenean sed adipiscing diam. Maecenas pharetra convallis posuere morbi leo urna molestie at.
@@ -28,12 +26,11 @@ export default function Diferenciais(){
 
                     <Col style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
-                    
-                        <div className={css.title}>
-                            Lorem Ipsum Dolor
-                        </div>
                         
                         <div className={css.card}>
+                    <div className={css.title}>
+                        Lorem Ipsum Dolor
+                    </div>
                         <div className={css.text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
                          risus in hendrerit gravida rutrum. Commodo odio aenean sed adipiscing diam. Maecenas pharetra convallis posuere morbi leo urna molestie at.
@@ -45,12 +42,10 @@ export default function Diferenciais(){
 
                     <Col style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
-                    
+                        <div className={css.card}>
                         <div className={css.title}>
                             Lorem Ipsum Dolor
                         </div>
-                        
-                        <div className={css.card}>
                         <div className={css.text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
                          risus in hendrerit gravida rutrum. Commodo odio aenean sed adipiscing diam. Maecenas pharetra convallis posuere morbi leo urna molestie at.
