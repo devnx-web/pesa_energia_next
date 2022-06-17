@@ -104,6 +104,10 @@ export default function Footer(){
                     </Row>
                 </Container>
             </div>
+
+            <div className={css.bgcopy}>
+                <div className={css.copy}>PESA - PARANÁ EQUIPAMENTOS S.A. - Todos os direitos reservados - 2022</div>
+            </div>
         </div>
     )
 }

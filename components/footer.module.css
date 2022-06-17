@@ -33,3 +33,16 @@
     font-size: 18px;
     margin-top: 15px;
 }
+
+.bgcopy{
+    background-color: rgb(26, 26, 26);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copy{
+    text-align: center;
+    color: grey;
+    font-family: "Univers";
+    font-weight: 200;
+}
