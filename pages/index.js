@@ -7,6 +7,10 @@ import Frase from './home/frase.js'
 import Produtos from './home/produtos.js'
 import Diferenciais from "./home/diferenciais.js"
 import Contador from './home/contador.js'
+import Areas from './home/areas.js'
+import Locais from './home/locais.js'
+import Form from './home/form.js'
+import Footer from "../components/footer.js"
 
 export default function Home() {
   return (
@@ -20,6 +24,10 @@ export default function Home() {
       <Produtos/>
       <Diferenciais/>
       <Contador/>
+      <Areas/>
+      <Locais/>
+      <Form/>
+      <Footer/>
     </div>
   )
 }

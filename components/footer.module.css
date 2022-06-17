@@ -1,0 +1,35 @@
+.bg{
+    background-image: url("../public/img/bg-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ttFooter{
+    border-left: solid 4px #fdc820;
+    color: white;
+    font-family: "Univers";
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.filial{
+    border-left: solid 3px #fdc820;
+    color: white;
+    font-family: "Univers";
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.endereco{
+    color: white;
+    font-family: "Univers";
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 15px;
+}
