@@ -8,7 +8,7 @@ export default function Quemsomos(){
             <div className={css.bgcolor}>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col md={6}>
                         <div className={css.title}>Quem <span style={{color: '#ffc700'}}>somos</span> nós</div>
                         <div className={css.text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -48,7 +48,7 @@ export default function Quemsomos(){
                         </Row>
                         </Col>
 
-                        <Col>
+                        <Col md={6}>
                             <Image src="/img/img-quemsomos.jpg" width="550" height="563" alt="img-sobre" />
                         </Col>
                     </Row>

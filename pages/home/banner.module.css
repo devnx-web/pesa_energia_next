@@ -44,7 +44,7 @@
     font-family: "Univers";
     font-weight: 800;
     font-size: 20px;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 28px 5px 28px;
     border-radius: 5px;
     color: white;
     transition: 0.3s;
@@ -57,7 +57,14 @@
 }
 
 @media(max-width: 600px){
-    .bgbanner{
-        margin-top: 100px;
+    .bgbanner{ 
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .button2{
+        margin-top: 20px;
     }
 }
