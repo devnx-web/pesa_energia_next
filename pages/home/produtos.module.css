@@ -16,6 +16,8 @@
     margin-bottom: 50px;
 }
 
-@media(min-width: 600px){
-    margin: 0;
+@media(max-width: 600px){
+    .frase{
+        margin: 0;
+    }
 }

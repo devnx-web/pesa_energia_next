@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 1000px) {
-    .ocultadesk {
+    .navigation{
         display: none;
     }
 }
@@ -152,5 +152,9 @@
 @media(max-width: 600px){
     .button{
         margin-top: 10px
+    }
+
+    .headerDesk{
+        display: none !important;
     }
 }

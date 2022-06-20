@@ -129,3 +129,10 @@
     background: white;
     transition: 0.3s;
 }
+
+@media (min-width: 600px){
+    .video{
+        width: 120px !important;
+        height: 30px !important;
+    }
+}
