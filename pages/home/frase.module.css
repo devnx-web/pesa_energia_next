@@ -16,3 +16,17 @@
     margin-top: 120px;
     margin-right: 10px;
 }
+
+@media(max-width: 600px){
+    .frase{
+        font-size: 40px;
+        text-align: left;
+        margin-top: 50px;
+        line-height: 40px;
+    }
+
+    .bgcolor{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

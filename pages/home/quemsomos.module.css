@@ -92,4 +92,9 @@
         margin-top: 20px;
         margin-bottom: 50px;
     }
+
+    .border{
+        height: 75px;
+        width: 73px;
+    }
 }

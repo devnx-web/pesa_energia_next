@@ -8,11 +8,11 @@ export default function Frase(){
             <div className={css.bgcolor}>
                 <Container fluid>
                     <Row>
-                        <Col>
+                        <Col sm={12} md={5}>
                         <div className={css.frase}>Frase vendedora de no máximo 3 linhas aqui</div>
                         </Col>
 
-                        <Col md={7} className={css.img}>
+                        <Col sm={12} md={7} className={css.img}>
                         <Image src="/img/gerador-frase.png"  width="1500" height="825" alt="img" />
                         </Col>
                     </Row>

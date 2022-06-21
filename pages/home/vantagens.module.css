@@ -74,3 +74,9 @@
     color: black;
     transition: 0.3s;
 }
+
+@media(max-width: 600px){
+    .bgcard{
+        
+    }
+}
