@@ -157,4 +157,16 @@
     .textocontador{
         margin-top: 50px;
     }
+
+    .shadow{
+        display: none;
+    }
+
+    .shadowl{
+        display: none;
+    }
+
+    .shadowr{
+        display: none;
+    }
 }
