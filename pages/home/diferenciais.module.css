@@ -48,5 +48,16 @@
     .frase{
         margin: 0;
     }
+
+    .frase{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 

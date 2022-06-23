@@ -4,72 +4,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Container } from 'reactstrap';
 import Image from "next/image";
 import Link from "next/link";
+import Menusite from "../components/menu.tsx"
 
 export default function Header(){
     return(
         <div>
+            <Menusite/>
             <div className={css.bgcolor}>
                 <Container>
-                    <Row className={css.headerDesk}>
-                        <Col>
-                            <Image src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" />
-                        </Col>
+                    <div className="d-flex align-items-center justify-content-between ps-4">
+                            <Link href="/"><a><Image src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" /></a></Link>
 
-                        <Col style={{textAlign: 'right', marginTop: '10px'}}>
-                            <navbar style={{alignItems: 'center'}}>
+                            <navbar className={css.menuDesk} style={{alignItems: 'center'}}>
                                 <Link href="#"><a className={css.link}><span>Home</span></a></Link>
                                 <Link href="#"><a className={css.link}><span>O Grupo</span></a></Link>
                                 <Link href="#"><a className={css.link}><span>Geradores</span></a></Link>
                                 <Link href="#"><a className={css.link}><span>Mais Opções</span></a></Link>
                                 <button className={css.button}>Contato</button>
                             </navbar>
-                        </Col>
-                    </Row>
-
-                    <nav className={css.navigation}>
-            <Row>
-                <Col>
-            <div className={css["menuToggle"] + " " + css["div"]}>
-                <input className={css.input} name="toggle" type="checkbox" />
-                <label className={css.label} htmlFor="toggle">
-                    <span className={css.span}>menu</span>
-                    <div className={css.div}></div>
-                    <div className={css.div}></div>
-                    <div className={css.div}></div>
-                </label>
-                <ul className={css["menu"] + " " + css["ul"]}>
-                    <li className={css.li}>
-                        <Link className={css.a} href="/">
-                            <a className={css.link}>inicio</a>
-                        </Link>
-                    </li>
-                    <li className={css.li}>
-                        <Link className={css.a} href="/estoque">
-                            <a className={css.link}>Estoque</a>
-                        </Link>
-                    </li>
-
-                    <li className={css.li}>
-                        <Link className={css.a} href="#sobre">
-                            <a className={css.link}>Sobre nós</a>
-                        </Link>
-                    </li>
-
-                    <button className={css.button}>
-                        Contato
-                    </button>
-                </ul>
-                
-                <div className={css.alignlogo}>
-                <Image src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" />
-                </div>
-            </div>
-            </Col>
-            <Col>
-            {/* <Image src={}/> */}
-            </Col>
-            </Row>
-        </nav>
+                    </div>
                 </Container>
             </div>
         </div>

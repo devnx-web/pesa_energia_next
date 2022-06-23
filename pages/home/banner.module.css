@@ -58,6 +58,8 @@
 
 @media(max-width: 600px){
     .bgbanner{ 
+        padding-top: 50px;
+        background-position: center;
     }
 
     .title{

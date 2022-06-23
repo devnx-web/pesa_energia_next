@@ -1,22 +1,160 @@
-.bgbanner{
-    background-image: url("../../public/img/contador.jpg");
+.bgpage{
+    background: linear-gradient(180deg, rgba(12,12,12,1) 0%, rgba(24,24,24,1) 100%);
+    margin-top: -30px;
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
 }
 
-.text{
-    text-align: center;
-    color: white;
+.titulo{
+    color: #ffffff;
     font-family: "Univers";
+    font-size: 35px;
     font-weight: 800;
-    font-size: 40px;
-    padding-top: 40px;
-    margin: 0 170px 0 170px;
+    text-align: center;
+}
+
+.contadorbd{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(12,12,12,1) 0%, rgba(24,24,24,1) 100%);
+    box-shadow: 0px -1px 14px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -1px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 14px -3px rgba(0,0,0,0.75);
+}
+
+.contador{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    box-shadow: 1px 6px 39px 8px rgba(0,0,0,0.50) inset;
+    -webkit-box-shadow: 1px 6px 39px 8px rgba(0,0,0,0.50) inset;
+    -moz-box-shadow: 1px 6px 39px 8px rgba(0,0,0,0.50) inset;
+    background: linear-gradient(180deg, rgb(31, 31, 31) 0%, rgb(17, 17, 17) 100%);
+}
+
+.number{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 8px 15px 8px 15px;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Univers2, sans-serif;
+}
+
+.cardnumber {
+    background: linear-gradient(180deg, rgb(21, 21, 21) 0%, rgba(38,38,38,1) 50%, rgb(17, 17, 17) 100%);
+    border: solid;
+    border-width: 1px;
+    border-color: #212121;
+    border-radius: 10px;
+    padding: 3px;
+}
+.cardnumber2 {
+    background: #111111FF;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #212121;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.cardnumber3{
+    margin: 0 6px 0 6px;
+    background: #111111FF;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #212121;
+    border-radius: 10px;
+}
+
+.shadow{
+    background: linear-gradient(180deg, rgba(0,0,0,0.7903536414565826) 0%, rgba(16,16,16,0) 22%);
+    width: 100%;
+    margin-top: 180px;
+    margin-bottom: -500px;
+    height: 300px;
+
+}
+.shadowl{
+    background: linear-gradient(220deg, rgba(0, 0, 0, 0.50) 0%, rgba(16,16,16,0) 22%);
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: -500px;
+    height: 50px;
+
+}
+.shadowr{
+    background: linear-gradient(145deg, rgba(0, 0, 0, 0.75) 0%, rgba(16,16,16,0) 22%);
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: -500px;
+    height: 50px;
+}
+
+.bgshadow{
+    width: 1000px;
+}
+
+.ponto{
+    background: radial-gradient(circle, rgba(38,38,38,0) 0%, rgba(0, 0, 0, 0.30) 100%);
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    margin: 22px 10px 22px 10px;
+
+}
+
+.paddingContador{
+    padding: 0 50px 0 50px;
+    margin: 100px 50px 0 50px;
 }
 
 @media(max-width: 600px){
-    .text{
+    .ponto{
         margin: 0;
+    }
+
+    .paddingContador{
+        padding: 0;
+        margin: 50px 0 0 0;
+    }
+
+    .number{
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .cardnumber{
+        padding: 0 0 0 2px;
+    }
+
+    .cardnumber2{
+        padding: 0
+    }
+
+    .cardnumber3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .contador{
+        height: 100px;
+    }
+
+    .bgpage{
+        height: 79vh;
+        margin-top: -57px;
+    }
+
+    .titulo{
         font-size: 25px;
+    }
+
+    .textocontador{
+        margin-top: 50px;
     }
 }

@@ -27,10 +27,10 @@ export default function Form(){
                         </Col>
 
                         <Col md={7}>
-                        <iframe style={{marginTop: '30px'}} width="660" height="415" src="https://www.youtube.com/embed/eNdXtHbYDSA" className={css.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style={{marginTop: '30px'}} width="660" height="415" src="https://www.youtube.com/embed/eNdXtHbYDSA" className={css.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <Row style={{marginTop: '20px'}}>
 
-                            <Col className="d-flex align-items-center mt-3 mt-md-0">
+                            <Col md={4} className="d-flex align-items-center mt-3 mt-md-0">
                                 <div className={css.border}>
                                     <BsFillTelephoneFill/>
                                 </div>
@@ -40,7 +40,7 @@ export default function Form(){
                                 </div>
                             </Col>
 
-                            <Col className="d-flex align-items-center mt-3 mt-md-0">
+                            <Col md={4} className="d-flex align-items-center mt-3 mt-md-0">
                                 <div className={css.border}>
                                 <BsFillTelephoneFill/>
                                 </div>
@@ -50,7 +50,7 @@ export default function Form(){
                                  </div>
                             </Col>
 
-                            <Col className="d-flex align-items-center mt-3 mt-md-0">
+                            <Col md={4} className="d-flex align-items-center mt-3 mt-md-0">
                             <div className={css.border}>
                             <BsFillTelephoneFill/>
                             </div>

@@ -135,4 +135,9 @@
         width: 330px !important;
         height: 200px !important;
     }
+
+    .bg{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }

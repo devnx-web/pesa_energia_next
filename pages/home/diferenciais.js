@@ -9,7 +9,7 @@ export default function Diferenciais(){
                 <Container>
                 <div className={css.frase}>Qual o nosso diferencial e porque somos <span style={{color: '#ffc700'}}>líderes no mercado?</span></div>
                 <Row>
-                    <Col style={{textAlign: 'center'}}>
+                    <Col md={4} style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
                         <div className={css.card}>
                         <div className={css.title}>
@@ -24,7 +24,7 @@ export default function Diferenciais(){
                     </div>
                     </Col>
 
-                    <Col style={{textAlign: 'center'}}>
+                    <Col md={4} style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
                         
                         <div className={css.card}>
@@ -40,7 +40,7 @@ export default function Diferenciais(){
                     </div>
                     </Col>
 
-                    <Col style={{textAlign: 'center'}}>
+                    <Col md={4} style={{textAlign: 'center'}}>
                     <BsCheckLg className={css.icon}/>
                         <div className={css.card}>
                         <div className={css.title}>

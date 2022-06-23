@@ -46,3 +46,14 @@
     font-family: "Univers";
     font-weight: 200;
 }
+
+@media(max-width: 600px){
+    .endereco{
+        margin-bottom: 50px;
+    }
+
+    .bgcopy{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
