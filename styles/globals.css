@@ -39,27 +39,33 @@ a {
   height: 20px !important;
   cursor: pointer;
 }
+
 .bm-burger-bars {
   background-color: #fff !important;
   width: 30px !important;
   height: 2px !important;
   margin-top: 40px !important;
+  margin-left: 20px !important;
 }
+
 .line-style {
   position: absolute;
   height: 20%;
   left: 0;
   right: 0;
 }
+
 .cross-style {
   position: absolute;
   top: 12px;
   right: 2px;
   cursor: pointer;
 }
+
 .bm-cross {
   background: #fff !important;
 }
+
 .bm-cross-button {
   height: 28px;
   width: 28px;
@@ -67,23 +73,27 @@ a {
 
 .bm-menu {
   background-color: black !important;
+  margin-top: -20px;
 }
 
 .bm-overlay {
   background: transparent !important;
 }
+
 .bm-item-list {
   color: white;
   margin-left: 10%;
   font-size: 20px;
   font-family: "Univers";
 }
+
 .bm-item-list > * {
   color: white;
   display: flex;
   text-decoration: none;
   padding: 0.7em;
 }
+
 .bm-item-list > * > span {
   font-weight: 700;
   color: white;
@@ -106,7 +116,6 @@ a {
   background-color: white;
   transition: 0.3s;
 }
-
 
 @media(min-width: 600px){
   .bm-burger-button{

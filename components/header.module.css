@@ -39,4 +39,12 @@
     .menuDesk{
         display: none;
     }
+
+    .bgcolor{
+        margin-top: -20px;
+    }
+
+    .link{
+        display: none;
+    }
 }

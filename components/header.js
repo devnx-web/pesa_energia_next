@@ -9,11 +9,18 @@ import Menusite from "../components/menu.tsx"
 export default function Header(){
     return(
         <div>
-            <Menusite/>
             <div className={css.bgcolor}>
+            <div className="d-flex d-md-none justify-content-between ">
+                <div>
+                    <Menusite/>
+                </div>
+                <div style={{marginTop: '20px', marginRight: '20px'}}>
+                    <Link href="/"><a><Image className={css.img} src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" /></a></Link>
+                </div>
+            </div>
                 <Container>
-                    <div className="d-flex align-items-center justify-content-between ps-4">
-                            <Link href="/"><a><Image src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" /></a></Link>
+                    <div className="d-none d-md-flex  align-items-center justify-content-between ps-4">
+                            <Link href="/"><a><Image className={css.img} src="/img/logo-pesaenergia.jpg" width="120" height="59" alt="logo" /></a></Link>
 
                             <navbar className={css.menuDesk} style={{alignItems: 'center'}}>
                                 <Link href="#"><a className={css.link}><span>Home</span></a></Link>
