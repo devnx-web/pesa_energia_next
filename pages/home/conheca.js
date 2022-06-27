@@ -53,35 +53,35 @@ export default function Conheca(){
                     <div>
                         <Slider {...settings}>
                            <div>
-                            <Image src="/img/gerador.png" width="1500" height="1000"/>
+                            <Image src="/img/gerador.png" width="1500" height="1000" alt="gerador"/>
                             <div className={css.bgcard}></div>
                             <div className={css.categoria}>Categoria</div>
                             <div className={css.modelo}>Modelo do Gerador</div>
                            </div>
 
                            <div>
-                            <Image src="/img/gerador.png" width="1500" height="1000"/>
+                            <Image src="/img/gerador.png" width="1500" height="1000" alt="gerador"/>
                             <div className={css.bgcard}></div>
                             <div className={css.categoria}>Categoria</div>
                             <div className={css.modelo}>Modelo do Gerador</div>
                            </div>
 
                            <div>
-                            <Image src="/img/gerador.png" width="1500" height="1000"/>
+                            <Image src="/img/gerador.png" width="1500" height="1000" alt="gerador"/>
                             <div className={css.bgcard}></div>
                             <div className={css.categoria}>Categoria</div>
                             <div className={css.modelo}>Modelo do Gerador</div>
                            </div>
 
                            <div>
-                            <Image src="/img/gerador.png" width="1500" height="1000"/>
+                            <Image src="/img/gerador.png" width="1500" height="1000" alt="gerador"/>
                             <div className={css.bgcard}></div>
                             <div className={css.categoria}>Categoria</div>
                             <div className={css.modelo}>Modelo do Gerador</div>
                            </div>
 
                            <div>
-                            <Image src="/img/gerador.png" width="1500" height="1000"/>
+                            <Image src="/img/gerador.png" width="1500" height="1000" alt="gerador"/>
                             <div className={css.bgcard}></div>
                             <div className={css.categoria}>Categoria</div>
                             <div className={css.modelo}>Modelo do Gerador</div>
