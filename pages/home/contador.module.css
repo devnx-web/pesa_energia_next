@@ -8,7 +8,7 @@
 
 .titulo{
     color: #ffffff;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-size: 35px;
     font-weight: 800;
     text-align: center;
@@ -43,7 +43,7 @@
     padding: 8px 15px 8px 15px;
     font-size: 80px;
     font-weight: 600;
-    font-family: Univers2, sans-serif;
+    font-family: "Univers", sans-serif;
 }
 
 .cardnumber {

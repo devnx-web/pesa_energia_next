@@ -6,7 +6,7 @@
 }
 
 .title{
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     color: white;
     font-size: 70px;
@@ -14,7 +14,7 @@
 }
 
 .text{
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 200;
     color: white;
     font-size: 25px;
@@ -24,7 +24,7 @@
 .button1{
     background-color: #ffc700;
     border: none;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     font-size: 20px;
     padding: 8px 15px 8px 15px;
@@ -41,7 +41,7 @@
 .button2{
     background-color: transparent;
     border: solid 2px #ffc700;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     font-size: 20px;
     padding: 5px 28px 5px 28px;

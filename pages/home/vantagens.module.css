@@ -11,7 +11,7 @@
 .title{
     text-align: center;
     color: white;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     font-size: 40px;
     line-height: 50px;
@@ -20,7 +20,7 @@
 .text{
     color: white;
     text-align: center;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 200;
     font-size: 25px;
     margin-bottom: 15px;
@@ -43,7 +43,7 @@
 .button1{
     background-color: #ffc700;
     border: none;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     font-size: 20px;
     padding: 8px 15px 8px 15px;
@@ -56,7 +56,7 @@
 .button2{
     background-color: transparent;
     border: solid 2px #ffc700;
-    font-family: "Univers";
+    font-family: "Univers", sans-serif;
     font-weight: 800;
     font-size: 20px;
     padding: 5px 28px 5px 28px;
