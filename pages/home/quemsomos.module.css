@@ -94,6 +94,7 @@
     }
 
     .border{
-        padding: 12px;
+        height: 55px;
+        width: 55px;
     }
 }
